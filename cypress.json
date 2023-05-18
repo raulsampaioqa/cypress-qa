@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://adm-test.averano.com.br",
+  "testFiles": "**/*.feature",
+  "global.usuario": {
+    "": {
+      "email": " ",
+      "senha": " "
+    }
+  },
+  "projectId": "k3za84",
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mochawesome-report",
+    "html": "true",
+    "json": "false",
+    "charts": "true",
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": "true",
+    "inlineAssets": "true"
+  },
+  "video": false
+}
