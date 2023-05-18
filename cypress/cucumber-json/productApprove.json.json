@@ -1,0 +1,110 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Approve Product",
+    "line": 1,
+    "id": "approve-product",
+    "tags": [],
+    "uri": "productApprove.feature",
+    "elements": [
+      {
+        "id": "approve-product;aprovar-cadastro-do-novo-produto-do-tipo-pagamento-de-contas",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Aprovar cadastro do novo produto do tipo pagamento de contas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 7890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "seleciono a opcao pagamento de contas que desejo aprovar",
+            "result": {
+              "status": "passed",
+              "duration": 1399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "seleciono opcao aprovar  novo cadastro de produto",
+            "result": {
+              "status": "failed",
+              "duration": 4582000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'APROVAR' but never did.\n    at Object.getAprovar (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:329:13)\n    at Object.approvarStatus (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:267:12)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:482:11)\n    at Context.resolveAndRunStepDefinition (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:10919:29)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:10240:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "e apresentado mensagem que novo produto foi alterado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "approve-product;aprovar-cadastro-do-novo-produto-do-tipo-credito-pessoal",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Aprovar cadastro do novo produto do tipo credito pessoal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 3274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "seleciono a opcao credito pessoal que desejo aprovar",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'AUT NOVO PRODUTO TESTE' but never did.\n    at Object.selecionarPagtoContasApprovar (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:321:13)\n    at Object.pesquisarCreditoPessoal (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:258:12)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:497:11)\n    at Context.resolveAndRunStepDefinition (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:10919:29)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\productApprove.feature:10240:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "seleciono opcao aprovar  novo cadastro de nproduto",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "e apresentado mensagem que novo produto foi alterado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

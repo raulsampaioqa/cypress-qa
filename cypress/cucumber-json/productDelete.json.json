@@ -1,0 +1,105 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Delete product",
+    "line": 1,
+    "id": "delete-product",
+    "tags": [],
+    "uri": "productDelete.feature",
+    "elements": [
+      {
+        "id": "delete-product;excluir-cadastro-do-novo-produto-do-tipo-pagamento-de-contas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Excluir cadastro do novo produto do tipo pagamento de contas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "undefined",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "seleciono a opcao credito pessoal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "informo os campos do novo produto do tipo credito pessoal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado mensagem que novo  produto  do tipo credito pessoal foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "delete-product;excluir-cadastro-do-novo-produto-do-tipo-credito-pessoal",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Excluir cadastro do novo produto do tipo credito pessoal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "seleciono a opcao credito pessoal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "informo os campos do novo produto do tipo credito pessoal",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "e apresentado mensagem que novo  produto  do tipo credito pessoal foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

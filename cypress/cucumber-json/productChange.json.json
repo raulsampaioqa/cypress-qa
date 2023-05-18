@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Product change",
+    "line": 1,
+    "id": "product-change",
+    "tags": [],
+    "uri": "productChange.feature",
+    "elements": [
+      {
+        "id": "product-change;alterar-produto--do-tipo-pagamentos-de-contas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Alterar produto  do tipo pagamentos de contas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 7628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "seleciono a opcao pagamento de contas que desejo alterar",
+            "result": {
+              "status": "passed",
+              "duration": 1922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "altero os campos do novo produto do tipo pagamento de contas",
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado mensagem que novo  produto  do tipo pagamento foi alterado",
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-change;alterar-produto--do-tipo-credito-pessoal",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Alterar produto  do tipo credito pessoal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 2251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "seleciono a opcao credito pessoal que desejo alterar",
+            "result": {
+              "status": "passed",
+              "duration": 1483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "altero os campos do novo produto  do tipo credito pessoal",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "e apresentado mensagem que novo  produto  do tipo credito foi alterado",
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

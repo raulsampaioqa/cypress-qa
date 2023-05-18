@@ -1,0 +1,105 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "register Tariff",
+    "line": 1,
+    "id": "register-tariff",
+    "tags": [],
+    "uri": "TariffRegistar.feature",
+    "elements": [
+      {
+        "id": "register-tariff;cadastrar-nova-tarifa-com-calculo-do-tipo-percentual",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Cadastrar nova tarifa com calculo do tipo percentual",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de cadatrar novas tarifas",
+            "result": {
+              "status": "undefined",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informo os campos cadastrais",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "seleciono opcao cadastrar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado mensagem que nova tarifa foi cadastrada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-tariff;cadastrar-nova-tarifa-com-calculo-do-tipo-valor",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Cadastrar nova tarifa com calculo do tipo valor",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que estou na tela de cadatrar novas tarifas",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "informo os campos cadastrais  da tela de tarifas",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "seleciono opcao cadastrar da teka de tarifas",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "e apresentado mensagem que nova tarifa foi cadastrada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

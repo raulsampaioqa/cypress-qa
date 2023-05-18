@@ -1,0 +1,171 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "autentication",
+    "line": 1,
+    "id": "autentication",
+    "tags": [],
+    "uri": "autentication.feature",
+    "elements": [
+      {
+        "id": "autentication;validar--acesso-ao-sistema-averano-com-dados-validos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validar  acesso ao sistema averano com dados validos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acessso o sistema acessarSiteAverano",
+            "result": {
+              "status": "passed",
+              "duration": 6682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informo os dados de acesso",
+            "result": {
+              "status": "passed",
+              "duration": 1134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "sou direcionado para tela de home",
+            "result": {
+              "status": "passed",
+              "duration": 1169000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autentication;validar--acesso-ao-sistema-averano-com-dados-invalidos",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Validar  acesso ao sistema averano com dados invalidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que acessso o sistema acessarSiteAverano",
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "informo os dados de acesso invalidos",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.type()` cannot accept an empty string. You need to actually type something.\n    at Context.type (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:158854:76)\n    at Context.<anonymous> (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:178437:19)\nFrom Your Spec Code:\n    at Object.getPassword (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\autentication.feature:112:36)\n    at Object.informarDadosAcesso (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\autentication.feature:64:12)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\autentication.feature:171:12)\n    at Context.resolveAndRunStepDefinition (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\autentication.feature:10615:29)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\autentication.feature:9936:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "e exbidos mensagem que dados  acesso estao invalidosn",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "autentication;validar--acesso-ao-sistema-averano--com-email-invalido",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validar  acesso ao sistema averano  com email invalido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que acessso o sistema acessarSiteAverano",
+            "result": {
+              "status": "passed",
+              "duration": 495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "informo os dados de acesso com email em braco",
+            "result": {
+              "status": "passed",
+              "duration": 1036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "e exibido um alerta que campo email esta invalido",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autentication;validar--acesso-ao-sistema-averano-com-senha-em-branco",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validar  acesso ao sistema averano com senha em branco",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que acessso o sistema acessarSiteAverano",
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "informo os dados de acesso com senha em branco",
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "e exibido alerta  que  senha esta em branco",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

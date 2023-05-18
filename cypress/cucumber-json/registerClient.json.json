@@ -1,0 +1,108 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register client",
+    "line": 1,
+    "id": "register-client",
+    "tags": [],
+    "uri": "registerClient.feature",
+    "elements": [
+      {
+        "id": "register-client;validar-novo-cliente-com-cnpj",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validar novo cliente com CNPJ",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 2356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informar os dados cadastrais  com  tipo de documento cnpj",
+            "result": {
+              "status": "failed",
+              "duration": 4336000000,
+              "error_message": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element:\n\n`<input aria-invalid=\"false\" id=\"document\" placeholder=\"00.000.000/0000-00\" type=\"text\" maxlength=\"18\" data-testid=\"undefined-test\" class=\"MuiInputBase-input MuiOutlinedInput-input jss132 MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense\" value=\"\">`\n\nis being covered by another element:\n\n`<div aria-hidden=\"true\" style=\"z-index: -1; position: fixed; inset: 0px; background-color: transparent; -webkit-tap-highlight-color: transparent;\"></div>`\n\nFix this problem, or use {force: true} to disable error checking.\n    at $Cy.ensureDescendents (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:168905:78)\n    at ensureDescendents (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154402:8)\n    at ensureDescendentsAndScroll (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154409:14)\n    at ensureElIsNotCovered (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154541:5)\n    at runAllChecks (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154731:52)\n    at retryActionability (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154755:16)\nFrom previous event:\n    at whenStable (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:173835:65)\n    at http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:173290:14\nFrom Your Spec Code:\n    at Object.getCnpj (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\registerClient.feature:341:24)\n    at Object.registerNewClientCNPJ (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\registerClient.feature:246:12)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\registerClient.feature:435:11)\n    at Context.resolveAndRunStepDefinition (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\registerClient.feature:10857:29)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\registerClient.feature:10178:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "seleciono  opcao cadastrar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado  mensagem que cliente  foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-client;validar-novo-cliente-com-cpf",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validar novo cliente com CPF",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 2004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "informar os dados cadastrais  com  tipo de documento cpf",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "seleciono  opcao cadastrar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "e apresentado  mensagem que cliente foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

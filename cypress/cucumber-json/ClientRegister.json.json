@@ -1,0 +1,220 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Client Register",
+    "line": 1,
+    "id": "client-register",
+    "tags": [],
+    "uri": "clientRegister.feature",
+    "elements": [
+      {
+        "id": "client-register;validar-novo-cliente-com-cnpj",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validar novo cliente com CNPJ",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 21708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informar os dados cadastrais  com  tipo de documento cnpj",
+            "result": {
+              "status": "failed",
+              "duration": 6859000000,
+              "error_message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<label class=\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined\" data-shrink=\"true\" for=\"fieldOfActivityId\" id=\"fieldOfActivityId-label\">Ramo de...</label>`\n\nhas CSS `pointer-events: none`\n\n`pointer-events: none` prevents user mouse interaction.\n\nFix this problem, or use {force: true} to disable error checking.\n    at $Cy.ensureElDoesNotHaveCSS (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:168878:76)\n    at ensureDescendents (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154400:8)\n    at ensureDescendentsAndScroll (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154409:14)\n    at ensureElIsNotCovered (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154541:5)\n    at runAllChecks (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154731:52)\n    at retryActionability (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154755:16)\nFrom previous event:\n    at whenStable (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:173835:65)\n    at http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:173290:14\nFrom previous event:\n    at $Cy.retry (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:173270:76)\n    at retryActionability (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154758:19)\n    at http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154762:12\nFrom previous event:\n    at Object.verify (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:154667:61)\n    at perform (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:156808:77)\nFrom previous event:\n    at mouseAction (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:156846:60)\n    at Context.click (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:156865:14)\n    at Context.<anonymous> (http://adm-test.averano.com.br/__cypress/runner/cypress_runner.js:178437:19)\nFrom Your Spec Code:\n    at Object.getRamoatividade (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\clientRegister.feature:351:36)\n    at Object.registerNewClientCNPJ (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\clientRegister.feature:289:12)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\clientRegister.feature:443:11)\n    at Context.resolveAndRunStepDefinition (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\clientRegister.feature:10875:29)\n    at Context.eval (http://adm-test.averano.com.br/__cypress/tests?p=cypress\\integration\\clientRegister.feature:10196:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "seleciono  opcao cadastrar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado  mensagem que cliente  foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "client-register;validar-cadastro-de-endereco-principal-do-cliente",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validar cadastro de endereco principal do cliente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 2724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "informar o cliente que desejo  cadastar endereco",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "seleciono  opcao no aba enderecos",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "inform os dados principais da tela de cadastro",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "e apreentado mensagem que endereco foi cadastrado com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "client-register;validar-novo-cliente-com-cpf",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validar novo cliente com CPF",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 2209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "informar os dados cadastrais  com  tipo de documento cpf",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "seleciono  opcao cadastrar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "e apresentado  mensagem que cliente foi cadastrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "client-register;validar-cadastro-de-contrato-dom-cliente",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validar cadastro de contrato dom cliente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "que estou na tela de novos clientes",
+            "result": {
+              "status": "passed",
+              "duration": 2868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "informar o cliente que desejo  cadastar endereco",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "seleciono  opcao no aba enderecos",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "inform os dados principais da tela de cadastro",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "e apreentado mensagem que endereco foi cadastrado com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

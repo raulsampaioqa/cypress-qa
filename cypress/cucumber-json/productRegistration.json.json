@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register product",
+    "line": 1,
+    "id": "register-product",
+    "tags": [],
+    "uri": "productRegistration.feature",
+    "elements": [
+      {
+        "id": "register-product;cadastrar-novo-produto--do-tipo-pagamentos-de-contas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Cadastrar novo produto  do tipo pagamentos de contas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 12479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "seleciono a opcao pagamento de contas",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "informo os campos do novo produto do tipo pagamento de contas",
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "e apresentado mensagem que novo  produto  do tipo pagamento foi cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-product;cadastrar-novo-produto--do-tipo-credito-pessoal",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Cadastrar novo produto  do tipo credito pessoal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na tela de cadatrar novos produtos",
+            "result": {
+              "status": "passed",
+              "duration": 3256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "seleciono a opcao credito pessoal",
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "informo os campos do novo produto do tipo credito pessoal",
+            "result": {
+              "status": "passed",
+              "duration": 870000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "e apresentado mensagem que novo  produto  do tipo credito pessoal foi cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
